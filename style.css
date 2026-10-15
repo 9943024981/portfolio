@@ -1,0 +1,277 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ .port-condainer{
+    background-color: bisque;
+ }
+.port-condainer {
+    background-image: url('web\ side\ img.jpg');  
+    background-size: cover;
+    background-position: center;
+     
+    width: auto;
+    height: 250px;
+    padding: 40px; 
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+/*-- Text Position--img font-- */
+.port-item {
+    margin-top: 0px; 
+ padding: 30px;
+ color: white;
+ flex-wrap: wrap;
+    
+}
+
+.port-item p{
+    font-size: 40px;  
+    margin-bottom: 50px;
+    
+}
+/*-- Text font-- */
+ .sub-title {
+    font-size: 80px;
+    color: white;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+
+}
+ .sub-title p{
+    gap: 100px;
+ }
+  
+/*-- button-- */
+ .port-item button:hover{
+    background-color: paleturquoise;
+    color: gray;
+}
+.port-item button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+/* -----About ----*/
+.about--condainer{  
+     margin-top: 30px; 
+     
+    width: 100%;
+  
+ }
+  .about--condainer p:hover{
+    background-color: violet;
+    color: white;
+  }
+.about--condainer p{
+    font-size: 50px;
+    gap: 20 px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    
+}
+.about--condainer ul{
+ padding-left: 20px;
+ padding-right: 10px;
+ align-items: baseline;
+ font-size: 18px;
+}
+.action--condainer{  
+    margin-top: 50px;
+   justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+ 
+}
+.action--condainer :hover{
+    background-color: violet;
+
+}
+.act--1 :hover{
+    background-color: white;
+    color: black;
+}
+.act--1{
+     
+padding: 10px;
+border: solid black;
+width: 20%;
+height: 20%;
+background-color: wheat;
+color: black;
+border-radius: 10px;
+flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.act--1 h1{
+    font-size: 40px;
+    padding: 20px;
+}
+.act--1 p{
+ font-size: 20px;
+ padding: 10px;
+}
+   
+
+
+.act--2{
+   
+    padding: 10px;
+border: solid black;
+width: 20%;
+height: auto;
+border-radius: 10px;
+background-color: wheat;
+flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.act--2 h1 h2 {
+    font-size: 40px;
+    padding: 20px;
+    gap: 10px;
+}
+.act--2 h1 {
+ margin-bottom: 20px;
+ padding: 20px;
+}
+.act--2 p{
+ font-size: 20px;
+ padding: 10px;
+ gap: 10px;
+}
+.act--2 h1 h2 h2 :hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.fooder-condainer{
+    margin-top: 50px;
+     
+    background-color: gray;
+  border: solid black;
+  height: 90px;
+  padding: 20px;
+  border-radius: 20px;
+flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.social--1 h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+//------contect---------
+.bu-header{
+
+   }
+.bu-header{
+    background-image: url('contact.img\ 123.jpg');  
+    background-size: cover;
+    background-position: center;
+     
+    width: auto;
+    height: 250px;
+    padding: 40px; 
+    border-radius: 10px;
+    margin-bottom: 30%
+}
+
+
+
+  .text-box {
+    
+    text-align: center;
+     font-size: 30PX;
+    background-color:white;
+    color: white;
+    border: solid black;
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+   }
+.location{
+  margin-top: 30%;
+ 
+
+}
+.location iframe{
+width: 100%;
+
+}
+/* Main Row Flexbox Structure */
+.contact-us{
+    margin-top: 90px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    border: solid antiquewhite;
+    border-radius: 10px;
+    height: auto;
+    gap: 30px;
+}
+
+
+.contact-col {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+    gap: 20px;
+    padding: 50px;
+}
+.contact-col h5 {
+    font-size: 30px;
+    margin-bottom: 18px;
+    padding: 15px;
+}
+ .contact-col  p{
+ font-size: 20px;
+ margin-bottom: 15px;
+
+ }
+.contact-col form {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    
+}
+
+.contact-col h2 {
+    margin-bottom: 30px;
+}
+
+ 
+.contact-col input, 
+.contact-col textarea {
+    
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Submit Button Style */
+.contact-col button {
+    width: max-content;
+    padding: 10px 20px;
+    cursor: pointer;
+}
